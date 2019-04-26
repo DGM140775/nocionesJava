@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Bienvenidos a la DGM Page</h1>
+	<form action="">
+		Nombre: <input type="text" name="nombreUsuario"></input></br>
+		Password: <input type="text" name="pwdUsuario"></input></br>
+		
+		<input type="submit" value="Login"></imput>
+		
+	
+	</form>
+</body>
+</html>

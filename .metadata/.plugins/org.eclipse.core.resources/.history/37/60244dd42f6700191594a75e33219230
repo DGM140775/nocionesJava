@@ -1,0 +1,9 @@
+package modelo.negocio;
+
+//Esta capa se encarga de llevar la LN de nuestra aplicacion
+//, dicho de otra manera, la funcionalidad de nuestra aplicacion, para lo que se programo
+
+public class GestorUsuario {
+	
+
+}

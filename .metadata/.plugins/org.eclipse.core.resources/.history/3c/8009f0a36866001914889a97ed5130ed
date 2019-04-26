@@ -1,0 +1,7 @@
+package entidades;
+
+public class Coche implements Movible{
+	private String matricula;
+	private String marca;
+
+}

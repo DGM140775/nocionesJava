@@ -1,0 +1,30 @@
+import org.omg.Messaging.SyncScopeHelper;
+
+public class MainVariables {
+	//En java tenemos dos tipos de variables, primitivos y referencias
+	
+	//punto de acceso a nuestro programa
+	public static void main(String[] args) {
+		//Primitivas: el valor se guarda dentro de la variable
+		int entero1 = 10;
+		double reales = 23.24;
+		long enterosGrandes = 100_000_000_000L; // se pueden poner guiones bajos para facilitar la lectura
+		boolean verdadero = true;
+		boolean falso = false;
+		
+		System.out.println(enterosGrandes);
+		
+		//variables de referencia, las referencias apuntan a objetos
+		//es decir, lo que guarda la referencia es la posicin de memoria donde se guarda
+		//el objeto (o los datos)
+		String cadena = "Esto es una cadena de texto";
+		
+		cadena = cadena + "cadena anexada";
+		
+		System.out.println(cadena);
+		
+		
+	}
+		
+	
+}

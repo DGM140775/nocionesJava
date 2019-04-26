@@ -1,0 +1,21 @@
+package modelo.persistencia;
+
+import java.util.ArrayList;
+
+import modelo.entidades.Usuario;
+
+/*
+ * Esta capa se encarga del acceso a los objetos de negocio. DAO (Data Access Object)
+ */
+
+public class DaoUsuario {
+	
+	private ArrayList<Usuario> listaUsuario;
+	//vamos a simular una BBDD
+	
+	public DaoUsuario() {
+		
+	}
+	
+
+}

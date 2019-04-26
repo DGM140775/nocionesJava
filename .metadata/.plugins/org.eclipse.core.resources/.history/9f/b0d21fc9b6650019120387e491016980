@@ -1,0 +1,33 @@
+package entidades;
+
+import java.util.ArrayList;
+
+public class MainHerencia {
+	
+	public static void main(String[] args) {
+		Empleado empleado = new Programador();
+		empleado.setDni("1122334455S");
+		empleado.setNombre("Bud");
+		empleado.setNomina(1000);
+		
+		Jefe jefe = new Jefe();
+		jefe.setDni("6677889900R");
+		jefe.setNombre("Terence");
+		jefe.setNomina(1600);
+		jefe.setIncentivos(300);
+		
+		Director director = new Director();
+		director.setDni("0099887766X");
+		director.setNombre("Harry");
+		director.setNomina(2500);
+		
+		ArrayList<Empleado> listaEmpleados = new ArrayList<>();
+		listaEmpleados.add(empleado);
+		listaEmpleados.add(jefe);
+		
+		
+		
+		
+	}
+
+}

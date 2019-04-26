@@ -1,0 +1,24 @@
+package entidades;
+
+public class Persona {
+	//las dos visibilidades mas importantes son public y private
+	//y se pueden dar tanto a atributos como a metodos
+	//con public podemos acceder desde cualquier otra clase
+	//con private solo podemos acceder desde la propia clase
+	public String nombre;
+	public int edad;
+	public double peso;
+	private int metros;
+	
+	public void andar(int metros) {
+		//con this hacemos una referencia al propio objeto, en este caso al atributo.
+		this.metros += metros;
+	}
+	
+	public int getMetros() {
+		return metros; 
+	}
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+package entidades;
+
+public class Persona extends Object implements Movible {
+	
+	private String nombre;
+	private int edad;
+	
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", edad=" + edad + "]";
+	}
+	
+	
+	
+
+}

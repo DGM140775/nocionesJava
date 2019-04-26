@@ -1,0 +1,25 @@
+package entidades;
+
+
+/**
+ * 
+ * Interfaz que hace que los objetos se puedan mover. Cada objeto se movera
+ * como corresponda
+ *
+ *@author DGM
+ *@version 1.0
+ *@since 24-04-2019
+ *@see ve a est URL para mas documentacin
+ * *
+ */
+public interface Movible {
+	// no hace falta poner la palabra abstract ya que al ser un metodo de un interface, siempre es abastracto y publico
+	/**
+	 * Este metodo hace que el  objeto se mueva de la manera mas lenta posible
+	 */
+	public void moverseLento(); 
+	public void moverseRapido();
+	public void moverse(int metros);
+	
+	
+}

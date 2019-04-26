@@ -1,0 +1,22 @@
+package ejemplo1;
+
+import java.applet.AppletContext;
+import java.beans.AppletInitializer;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main1 {
+	
+	public static void main(String[] args) {
+		//manera clasica de crear un objeto. Pero Spring NO esta llevando el control del objeto
+		Persona p = new Persona();
+		p.setNombre("Hommer");
+		p.setEdad(35);
+		p.setPeso(110);
+		
+		AppletContext context = new ClassPathXmlApplicationContext("beans.xml");
+		
+		
+	}
+
+}

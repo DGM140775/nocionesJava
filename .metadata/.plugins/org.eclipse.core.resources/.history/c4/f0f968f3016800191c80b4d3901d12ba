@@ -1,0 +1,12 @@
+package ejemplo2;
+
+public class Espada {
+	private String tipoEspada;
+	
+	public void usarEspada() {
+		
+		
+	}
+	
+
+}

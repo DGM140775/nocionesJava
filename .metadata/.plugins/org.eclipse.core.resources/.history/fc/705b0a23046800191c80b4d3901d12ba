@@ -1,0 +1,25 @@
+package ejemplo2;
+
+public class Espada {
+	private String tipoEspada;
+	
+		
+	public String getTipoEspada() {
+		return tipoEspada;
+	}
+
+
+
+	public void setTipoEspada(String tipoEspada) {
+		this.tipoEspada = tipoEspada;
+	}
+
+
+	public void usarEspada() {
+		System.out.println("sy una espada de tipo "+ tipoEspada);
+		
+		
+	}
+	
+
+}

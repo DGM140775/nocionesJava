@@ -1,0 +1,13 @@
+package entidades;
+
+import java.util.ArrayList;
+
+public class MainInterfaces {
+	
+	public static void main(String[] args) {
+		ArrayList<Movible> carrera = new ArrayList<>();
+		
+		
+	}
+
+}

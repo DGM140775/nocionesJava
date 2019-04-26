@@ -1,0 +1,17 @@
+package ejemplo2;
+
+public class MainBatalla {
+	
+	public static void main(String[] args) {
+		Guerrero guerrero = new Guerrero();		
+		guerrero.setNombreGuerrero("Aquiles");
+		Espada espada = new Espada();
+		espada.setTipoArma("larga");
+		
+		//inyecctar la dependencia
+		guerrero.setArma(espada);
+		guerrero.atacar();
+			
+	}
+
+}

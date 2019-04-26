@@ -1,0 +1,17 @@
+package entidades;
+
+
+/**
+ * 
+ * Interfaz que hace que los objetos se puedan mover. Cada objeto se movera
+ * como corresponda
+ *
+ *@author DGM
+ *
+ *
+ */
+public interface Movible {
+
+	
+	
+}

@@ -1,0 +1,10 @@
+package entidades;
+
+public class MainHerencia {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class MainVariables {
+	//En java tenemos dos tipos de variables, primitivos y referencias
+	//Primitivas: el valor se guarda dentro de la variable
+	int entero1 = 10;
+	double reales = 23.24;
+	long enterosGrandes = 100000000000L;
+	
+}

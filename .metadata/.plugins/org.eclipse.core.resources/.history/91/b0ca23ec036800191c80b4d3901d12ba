@@ -1,0 +1,10 @@
+package ejemplo2;
+
+public abstract class Arma {
+	private String tipoArma;
+	
+	public abstract void usarArma() {
+		
+	}
+	
+}

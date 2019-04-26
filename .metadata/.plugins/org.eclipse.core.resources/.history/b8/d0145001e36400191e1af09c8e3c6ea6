@@ -1,0 +1,13 @@
+
+public class MainFunciones {
+	//una funcion que es la funcion principal, en java se conocen como metodos
+	//no existen funciones globales, todos los metodos estan asociados a una 
+	//clase
+	public static void main(String[] args) {
+		
+	}
+	
+	public void salud(String nombre) {
+		
+	}
+}

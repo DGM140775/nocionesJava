@@ -1,0 +1,66 @@
+import java.util.Arrays;
+
+public class MainFunciones {
+	//una funcion que es la funcion principal, en java se conocen como metodos
+	//no existen funciones globales, todos los metodos estan asociados a una 
+	//clase
+	public static void main(String[] args) {
+		saludo ("David");
+		int resultado = sumar (2,4);
+		double resultadoReal = sumar (2.4,2.6);
+		int resultado2 = sumar (2,4,6);
+		System.out.println(resultado);
+		System.out.println(resultadoReal);
+		System.out.println(resultado2);
+		int[] resultados = operaciones(2,4);
+		System.out.println(Arrays.toString(resultados));
+	}
+	
+	/*
+	 * 1. visibilidad (public)
+	 * 2. si es estatico o dinamico
+	 * 3. valor de retorno, void cuando no queremos retornar nada, en caso que tenga que devolverhay que indicar la naturaleza
+	 * 4. nombre del metodo
+	 * 5. parametros de entrada
+	 */
+	
+	public static void saludo(String nombre) {
+		System.out.println("Yo te saludo " + nombre);
+	}
+	
+	public static int sumar(int numero1, int numero2) {
+		int resultado = numero1 + numero2;
+		return resultado;
+	}
+	
+	public static int[] operaciones(int numero1, int numero2) {
+		int[] resultados = new int[4];
+		resultados[0] = numero1 + numero2;
+		resultados[1] = numero1 - numero2;
+		resultados[2] = numero1 * numero2;
+		resultados[3] = numero1 / numero2;
+		return resultados;		
+	}
+	
+	//existe lo que se conoce como sobrecarga de metodos
+	//un metodo esta sobrecargado cuando tiene un mismo nombre pero distinto tipo o numero de argumentos de entrada
+	
+	public static double sumar(Double real1, Double real2) {
+		return real1 + real2;
+		
+	}
+	
+	public static int sumar(int numero1, int numero2, int numero3) {
+		int resultado = numero1 + numero2 + numero3;
+		return resultado;
+	}
+	
+	
+	/*error ya que la sobrecarga solo es con los parametros de entdada nunca de salida
+	public static double sumar(int numero1, int numero2, int numero3) {
+		double resultado = numero1 + numero2 + numero3;
+		return resultado;
+	}
+	*/
+	
+}

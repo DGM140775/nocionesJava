@@ -1,0 +1,17 @@
+package entidades;
+
+import java.util.ArrayList;
+
+public class Director extends Empleado{
+
+	private ArrayList<Empleado> listaEmpleados;
+	
+	@Override
+	public double calcularSueldo() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+
+}
